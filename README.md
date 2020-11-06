@@ -1,5 +1,5 @@
 # docker_unifi-controller
 
-Controlador Unifi - One Liner
+Docker-compose para desplegar un controlador UNIFI.
 
-docker run --init -d --restart always --net=host -e PGID=900 -e PUID=900 -v ~/unifi:/unifi --name unifi-controller jacobalberty/unifi:5.8.30-sc
+Testeado con vagrant + unifi controller v6.0.28
